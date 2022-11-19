@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="outer-shit">
+        <div class="card">
+            <div id="screen" class="screen">0</div>
+            <button class="add-button" onclick=calc(this)>+</button>
+            <button class="sub-button" onclick=calc(this)>-</button>
+            <button class="mul-button" onclick=calc(this)>*</button>
+            <button class="div-button" onclick=calc(this)>/</button>
+            <button class="one" onclick=changeValue(this)>1</button>
+            <button class="two" onclick=changeValue(this)>2</button>
+            <button class="three" onclick=changeValue(this)>3</button>
+            <button class="four" onclick=changeValue(this)>4</button>
+            <button class="five" onclick=changeValue(this)>5</button>
+            <button class="six" onclick=changeValue(this)>6</button>
+            <button class="seven" onclick=changeValue(this)>7</button>
+            <button class="eight" onclick=changeValue(this)>8</button>
+            <button class="nine" onclick=changeValue(this)>9</button>
+            <button class="zero" onclick=changeValue(this)>0</button>
+            <button class="execute" onclick=execute()>=</button>
+            <button class="execute" onclick=clearValues()>C</button>
+        </div>
+    </div>
+    
+</body>
+</html>
